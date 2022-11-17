@@ -103,21 +103,21 @@ nav a {
     margin: auto;
 }
 
-.info-image {
+.info-images .image {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
 }
 
-.info-image .image {
+.image img {
     width: 150px;
     height: 150px;
     border: 4px solid #3882f6;
     border-radius: 16px;
 }
 
-.info-image .subtext {
+.image .subtext {
     text-align: center;
     color: #1f2937;
     max-width: 150px;

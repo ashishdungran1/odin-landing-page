@@ -42,6 +42,11 @@ nav ul {
     gap: 25px;
 }
 
+nav a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -185,4 +190,8 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+button:hover {
+    cursor: pointer;
 }

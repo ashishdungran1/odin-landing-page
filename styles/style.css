@@ -142,3 +142,47 @@ figure {
     font-style: normal;
     text-align: right;
 }
+
+.signup {
+    padding: 100px 0;
+}
+
+.signup .container {
+    background-color: #3882f6;
+    color: white;
+    max-width: 1000px;
+    margin: auto;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-text div:nth-of-type(1) {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.signup-text div:nth-of-type(2) {
+    font-size: 18px;
+}
+
+.signup button {
+    background-color: #3882f6;
+    color: white;
+    font-size: 18px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 32px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
